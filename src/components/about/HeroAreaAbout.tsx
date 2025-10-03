@@ -81,7 +81,7 @@ const HeroAreaAbout = () => {
                   <Image className="tp-rotate-center" src={about_circle} alt="image-here" />
                 </div>
                 <div className="ab-hero__big-img">
-                  <Image src={about_img} style={{ height: "auto" }} alt="image-here" />
+                  <Image className="abt-img" src={about_img} style={{ height: "auto" }} alt="image-here" />
                 </div>
               </div>
             </div>
