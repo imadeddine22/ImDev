@@ -7,9 +7,7 @@ import bg_shape from "@/assets/img/offcanvas/bg-shape-3.png";
 import logo_white from "@/assets/img/logo/logo.png";
 import logo_black from "@/assets/img/logo/logo-black.png";
 
-import offcanvas_1 from "@/assets/img/offcanvas/offcanvas-1.jpg";
-import offcanvas_2 from "@/assets/img/offcanvas/offcanvas-2.jpg";
-import offcanvas_3 from "@/assets/img/offcanvas/offcanvas-3.jpg"; 
+
 
 const Offcanvas2 = ({ showCanvas, setShowCanvas }: any) => {
   return (
@@ -55,35 +53,14 @@ const Offcanvas2 = ({ showCanvas, setShowCanvas }: any) => {
               </nav>
             </div>
             <div className="tp-offcanvas-gallery">
-              <div className="row gx-2">
-                <div className="col-md-3 col-3">
-                  <div className="tp-offcanvas-gallery-img fix">
-                    <a href="#"><Image src={offcanvas_1} alt="image" /></a>
-                  </div>
-                </div>
-                <div className="col-md-3 col-3">
-                  <div className="tp-offcanvas-gallery-img fix">
-                    <a href="#"><Image src={offcanvas_2} alt="image" /></a>
-                  </div>
-                </div>
-                <div className="col-md-3 col-3">
-                  <div className="tp-offcanvas-gallery-img fix">
-                    <a href="#"><Image src={offcanvas_3} alt="image" /></a>
-                  </div>
-                </div>
-                <div className="col-md-3 col-3">
-                  <div className="tp-offcanvas-gallery-img fix">
-                    <a href="#"><Image src={offcanvas_2} alt="image" /></a>
-                  </div>
-                </div>
-              </div>
+             
             </div>
             <div className="tp-offcanvas-contact-2">
               <h3 className="tp-offcanvas-contact-title-2">Information</h3>
 
               <ul>
-                <li><a href="tel:1245654">+213 675 97 15 18</a></li>
-                <li><a href="mailto:hello@diego.com">ieddine008@gmail/com</a></li>
+                <li><a href="tel:+213 675 97 15 18">+213 675 97 15 18</a></li>
+                <li><a href="ieddine008@gail.com">ieddine008@gmail/com</a></li>
                 <li><a href="#">Palestro,Algeria</a></li>
               </ul>
             </div>

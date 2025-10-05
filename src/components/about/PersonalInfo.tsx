@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import whatsap from "@/assets/img/about/whatsap.png";
 import shape_1 from "@/assets/img/services/shape/services-shape-1.png";
-import shape_2 from "@/assets/img/services/shape/services-shape-2.png"; 
+ 
 
 
 interface DataType {
@@ -171,11 +171,7 @@ const PersonalInfo = () => {
                           <Image src={shape_1} alt="brand-img" />
                         </span>
                       </p>
-                      <p data-tp-throwable-el="">
-                        <span className="">
-                          <Image src={shape_2} alt="brand-img" />
-                        </span>
-                      </p>
+                      
                     </div>
                   </div>
                 </div>

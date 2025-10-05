@@ -1,10 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Diego - Personal Creative Portfolio & Resume HTML Template
-    Author: Theme_Pure
-    Support: https://help.themepure.net/support/
-    Description: Diego - Personal Creative Portfolio & Resume HTML Template
-    Version: 1.0
+  
 
 -----------------------------------------------------------------------------------
 
@@ -237,14 +233,14 @@ li,
   --tp-common-black-5: #171718;
   --tp-common-black-6: #192553;
   --tp-common-black-7: #121314;
-  --tp-common-black-8: #2E2E2E;
+  --tp-common-black-8: #2e2e2e;
   --tp-dark-white: #ffffff;
   --tp-dark-black-solid: #000;
   --tp-dark-black: #020B18;
   --tp-dark-black-2: #000F4A;
   --tp-dark-black-3: #162251;
   --tp-dark-black-4: #0F183E;
-  --tp-dark-black-5: #213617;
+  --tp-dark-black-5: #171a36;
   --tp-yellow-1: #FFB342;
   --tp-pink-1: #FD4B6B;
   --tp-pink-2: #FF5746;
@@ -268,7 +264,7 @@ li,
   --tp-grey-2: #2F3862;
   --tp-grey-3: #F6F9FF;
   --tp-grey-4: #DDDDE7;
-  --tp-text-body: #55585B;
+  --tp-text-body: #55555b;
   --tp-text-1: #767A7D;
   --tp-theme-primary: #0989FF;
   --tp-theme-secondary: #1A2813;
@@ -739,7 +735,7 @@ div.demo img {
 }
 
 [tp-theme=tp-theme-dark] .demo {
-  color: yellow;
+  color: rgb(38, 0, 255);
 }
 
 /*----------------------------------------
@@ -12452,12 +12448,9 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
     font-size: 50px;
   }
 }
-.tp-hero-title span, .tp-hero-title span b {
-  background-image: -webkit-linear-gradient(90.68deg, #BCFFA4 8.59%, #BCFFA4 8.59%, #F59571 86.19%);
-  background-image: -moz-linear-gradient(90.68deg, #BCFFA4 8.59%, #BCFFA4 8.59%, #F59571 86.19%);
-  background-image: -ms-linear-gradient(90.68deg, #BCFFA4 8.59%, #BCFFA4 8.59%, #F59571 86.19%);
-  background-image: -o-linear-gradient(90.68deg, #BCFFA4 8.59%, #BCFFA4 8.59%, #F59571 86.19%);
-  background-image: linear-gradient(90.68deg, #BCFFA4 8.59%, #BCFFA4 8.59%, #F59571 86.19%);
+.tp-hero-title span,
+.tp-hero-title span b {
+  background-image: linear-gradient(90deg, #ff9a9e 0%, #fecf6a 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -16633,7 +16626,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   transform: rotate(-3deg) translateY(-35px);
 }
 .tp-marquee-slider-active {
-  background-color: #BCE70C;
+  background-color: white;
   height: 84px;
 }
 .tp-marquee-item p {
@@ -18392,7 +18385,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   color: var(--tp-common-white);
   box-shadow: 0 2px 2px rgba(1, 15, 28, 0.12);
 }
-
+-theme-dark
 .ab-personal-info__skill .ab-personal-info__right-title {
   margin-bottom: 5px;
 }
@@ -18400,7 +18393,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
 /*----------------------------------------*/
 /*  7.15 theme-light css
 /*----------------------------------------*/
-html[tp-theme=tp-theme-dark] .logo-black {
+html[tp-theme=tp] .logo-black {
   display: none;
 }
 html[tp-theme=tp-theme-dark] .background-dark-mode {

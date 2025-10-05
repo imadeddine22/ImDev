@@ -88,10 +88,10 @@ const Offcanvas = ({ showCanvas, setShowCanvas, style_bg, style_bg2 }: any) => {
 
               <div className="tpoffcanvas__right-info">
                 <div className="tpoffcanvas__tel">
-                  <a href="tel:61404093954">+213 675 97 15 18</a>
+                  <a href="tel:+213 675 97 15 18">+213 675 97 15 18</a>
                 </div>
                 <div className="tpoffcanvas__mail">
-                  <a href="mailto:hellocontact@diego.com">
+                  <a href="mailto:ieddine008@gmail.com">
                     ieddine008gmail</a>
                 </div>
                 <div className="tpoffcanvas__text">
